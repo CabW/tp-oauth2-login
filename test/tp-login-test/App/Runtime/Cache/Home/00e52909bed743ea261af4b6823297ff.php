@@ -9,9 +9,9 @@
 	<script src="/git/tp-oauth2-login/test/tp-login-test/Public/assets/jquery/jquery.cookie.js"></script>
 	<script>
 		// oauth服务器登录页面地址，不包含参数
-		var serverLoginUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/Home/Login/login';
+		var serverLoginUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/login';
 		// 服务器完成操作后的回调地址
-		var callbackUrl = 'http://localhost/git/tp-oauth2-login/test/tp-login-test/index.php/Home/Index/callback';
+		var callbackUrl = 'http://localhost/git/tp-oauth2-login/test/tp-login-test/index.php/callback';
 		var userInfo = $.cookie('user_info');
 		console.log( userInfo);
 		if(userInfo != '' && typeof userInfo != 'undefined'){

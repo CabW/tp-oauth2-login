@@ -10,7 +10,7 @@ return array(
 	'DEFAULT_JSONP_HANDLER' => 'jsonpReturn', 	// 默认JSONP格式返回的处理方法
 	'DEFAULT_FILTER' => 'htmlspecialchars', 	// 默认参数过滤方法 用于I函数...
 	// 加载自定义扩展配置文件
-	'LOAD_EXT_CONFIG' => 'db,exception',
+	'LOAD_EXT_CONFIG' => 'db,exception,url',
 	// 注册其他的根命名空间
 	'AUTOLOAD_NAMESPACE' => array(
 	    'OAuth2'     => COMMON_PATH . 'Library/OAuth2/',

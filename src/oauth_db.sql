@@ -86,4 +86,4 @@ CREATE TABLE `oauth_users` (
 -- 如果src目录和test目录不统一请修改第三项
 -- 第三项表示：登录请求成功的回调地址
 -- ----------------------------
-INSERT INTO `oauth_clients` VALUES ('demoapp', 'demopass', 'http://localhost/git/tp-oauth2-login/test/tp-login-test/index.php/Home/Index/callback');
+INSERT INTO `oauth_clients` VALUES ('demoapp', 'demopass', 'http://localhost/git/tp-oauth2-login/test/tp-login-test/index.php/callback');

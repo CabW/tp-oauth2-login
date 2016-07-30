@@ -1,4 +1,5 @@
 <?php
+// 整个项目的相关配置
 return array(
-	//'配置项'=>'配置值'
+	'LOAD_EXT_CONFIG' => 'url',
 );

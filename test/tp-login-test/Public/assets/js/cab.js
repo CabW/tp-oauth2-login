@@ -1,14 +1,14 @@
 (function(){
 	// 请求token地址
-	var tokenUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/Home/OAuth2/token';
+	var tokenUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/oauth2/token';
 	// 根据token获得用户信息的地址
-	var userInfoUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/Home/OAuth2/info';
+	var userInfoUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/oauth2/info';
 	
 	// 前两个地址是oauth服务器地址
 	// 后面两个地址是测试项目页面地址
 
 	// 获取token后回调地址
-	var callbackUrl = 'http://localhost/git/tp-oauth2-login/test/tp-login-test/index.php/Home/Index/callback';
+	var callbackUrl = 'http://localhost/git/tp-oauth2-login/test/tp-login-test/index.php/callback';
 	// 返回首页地址
 	var indexUrl = 'http://localhost/git/tp-oauth2-login/test/tp-login-test/index.php';
 	$(document).ready(function(){

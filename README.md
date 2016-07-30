@@ -1,13 +1,19 @@
 # tp-oauth2-login
-<br/>
 基于OAuth2协议与ThinkPHP的登录模块<br/>
+项目当前版本(bulid-1.0.0.2)<br/>
+更新内容：<br/>
+1.开启Tp路由，将url简单化<br/>
+例如index.php/Home/Login/login => index.php/login<br/>
+详细修改请查看src/tp-oauth2-login/App/Common/Conf/url.php<br/>
+<small>但/index.php/去掉需要更改服务器配置文件，请自行百度</small>
+<br/>
 TP版本：3.2.3<br/>
 OAuth版本：2.0<br/>
 <br/>
 <br/>
 运行环境要求：<br/>
-PHP 5.3.9+<br/>
-MySql 5.5+<br/>
+PHP&nbsp;5.3.9+<br/>
+MySql&nbsp;5.5+<br/>
 数据库自行选择，不过本例中的sql文件是基于MySQL<br/>
 <br/>
 <br/>
@@ -17,7 +23,7 @@ MySql 5.5+<br/>
 可以更改下列文件中涉及到的服务器请求地址：<br/>
 /tp-oauth2-login/test/tp-login-test/App/Home/View/Index/index.html<br/>
 /tp-oauth2-login/test/tp-login-test/Public/assets/js/cab.js<br/>
-/tp-oauth2-login/src/oauth_db.sql,INSERT INTO语句<br/>
+/tp-oauth2-login/src/oauth_db.sql，INSERT INTO语句<br/>
 <br/>
 <br/>
 给出你的意见或建议<br/>
