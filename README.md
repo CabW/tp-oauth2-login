@@ -5,12 +5,9 @@
 TP版本：3.2.3<br/>
 OAuth版本：2.0<br/>
 <br/>
-项目当前版本(bulid-1.0.0.2)<br/>
+项目当前版本(bulid-1.0.0.3)<br/>
 更新内容：<br/>
-1.开启Tp路由，将url简单化<br/>
-例如index.php/Home/Login/login => index.php/login<br/>
-详细修改请查看src/tp-oauth2-login/App/Common/Conf/url.php<br/>
-<small>但/index.php/去掉需要更改服务器配置文件，请自行百度</small>
+1.返回数据屏蔽用户编号与用户密码<br/>
 <br/>
 <br/>
 运行环境要求：<br/>

@@ -68,7 +68,6 @@ class OAuth2Controller extends \OAuth2\Controller {
         }
         $tokenData = $this->oauth_server->getAccessTokenData($this->oauth_request);
         // 此时获取的tokenData格式为
-
         // {
         //      "access_token":"ACCESS_TOKEN",
         //      "client_id":"CLIENT_ID",
@@ -79,6 +78,11 @@ class OAuth2Controller extends \OAuth2\Controller {
         // echo json_encode($tokenData);
         // 如果想屏蔽掉用户的编号而返回用户其他信息可将该变量重新封装一下，例如：
         $userinfo = M('user')->where(array('user_id' => $tokenData['user_id']))->find();
-        echo json_encode($userinfo);
+        // 屏蔽用户密码
+        $user = array(
+        	'user_account' => $userinfo['user_account'],
+        	'user_email' => $userinfo['user_email'],
+        );
+        echo json_encode($user);
     }
 }

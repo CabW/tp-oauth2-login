@@ -1,8 +1,8 @@
 (function(){
 	// 请求token地址
-	var tokenUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/oauth2/token';
+	var tokenUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/token';
 	// 根据token获得用户信息的地址
-	var userInfoUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/oauth2/info';
+	var userInfoUrl = 'http://localhost/git/tp-oauth2-login/src/tp-oauth2-login/index.php/info';
 	
 	// 前两个地址是oauth服务器地址
 	// 后面两个地址是测试项目页面地址
