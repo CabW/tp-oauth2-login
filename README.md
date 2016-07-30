@@ -18,7 +18,6 @@ PHP&nbsp;5.3.9+<br/>
 MySql&nbsp;5.5+<br/>
 数据库自行选择，不过本例中的sql文件是基于MySQL<br/>
 <br/>
-<br/>
 实际运行：<br/>
 假设PHP运行目录为www, 那么请clone到www/git/下<br/>
 直接可以运行，不用再修改其他文件，如果不嫌麻烦<br/>
@@ -27,9 +26,7 @@ MySql&nbsp;5.5+<br/>
 /tp-oauth2-login/test/tp-login-test/Public/assets/js/cab.js<br/>
 /tp-oauth2-login/src/oauth_db.sql，INSERT INTO语句<br/>
 <br/>
-<br/>
 给出你的意见或建议<br/>
 qq：396679132<br/>
 邮箱：396679132@qq.com<br/>
 欢迎骚扰, ^_^ !<br/>
-<br/>
