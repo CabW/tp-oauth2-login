@@ -1,14 +1,16 @@
 # tp-oauth2-login
 基于OAuth2协议与ThinkPHP的登录模块<br/>
+<br/>
+项目框架版本：<br/>
+TP版本：3.2.3<br/>
+OAuth版本：2.0<br/>
+<br/>
 项目当前版本(bulid-1.0.0.2)<br/>
 更新内容：<br/>
 1.开启Tp路由，将url简单化<br/>
 例如index.php/Home/Login/login => index.php/login<br/>
 详细修改请查看src/tp-oauth2-login/App/Common/Conf/url.php<br/>
 <small>但/index.php/去掉需要更改服务器配置文件，请自行百度</small>
-<br/>
-TP版本：3.2.3<br/>
-OAuth版本：2.0<br/>
 <br/>
 <br/>
 运行环境要求：<br/>
